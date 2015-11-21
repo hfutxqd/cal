@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_setting"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="@string/action_setting"/>
+    
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/action_about"/>
+
+</menu>

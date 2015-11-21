@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E2E2E"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settingtext2" 
+        android:textColor="#FFFFFF"/>
+    <RadioGroup
+    	android:id="@+id/radioGroup1"
+   	 	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+    	android:orientation="horizontal">
+
+	    <RadioButton
+	        android:id="@+id/radio0"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="30dp"
+	        android:checked="true"
+	        android:text="@string/settingtrue" 
+	        android:textColor="#FFFFFF"
+	        android:onClick="onButton1Click"/>
+	
+	    <RadioButton
+	        android:id="@+id/radio1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="30dp"
+	        android:text="@string/settingfalse" 
+	        android:textColor="#FFFFFF"
+	        android:onClick="onButton2Click"/>
+	</RadioGroup>
+	
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settingtext4" 
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:inputType="number"
+        android:text="10000000000"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:onClick="onSaveClick"
+            android:id="@+id/save"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settingsave" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

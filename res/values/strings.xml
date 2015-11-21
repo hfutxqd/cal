@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">计算器</string>
+    <string name="action_setting">设置</string>
+    <string name="action_about">关于</string>
+    <string name = "settingtext1">精确到小数点后的位数:</string>
+    <string name = "settingtext2">结果是否分组：</string>
+    <string name = "settingtext3">是否使用科学计数法：</string>
+    <string name = "settingtext4">绝对值大于此数时使用科学计数（0表示不使用）：</string>
+    <string name = "settingtrue">使用</string>
+    <string name = "settingfalse">不使用</string>
+    <string name = "settingsave">保存</string>
+    <string name = "settingcancel">取消</string>
+    <string name = "app">计算器（高精度）1.29final-2</string>
+    <string name = "about">冰迹﹠风痕\nQQ:371314643\n源码下载地址\nhttp://pan.baidu.com/s/1sjNLDwD\n如解压需要密码，密码为HFUTXQD\nAll Rights Reserved.\n我的第一个安卓应用程序\n1.1版更新说明：\n*UI全面改版，操作更加方便
+        \n\n1.11版更新说明：\n*增加显示屏滚动，可以浏览无限的内容\n\n1.12版更新说明：\n*增加输入数字时，显示屏自动滚动到底部
+        \n\n1.21版更新说明：\n*支持高精度计算，整数部分没有精度限制，小数部分设定为精确到小数点后30位\n*修复Bug\n\n1.22版更新说明：
+        \n*优化计算结果显示格式\n*修复在某些情况下可能导致闪退的问题\n\n1.23版更新说明：\n*优化布局，兼容更多的分辨率\n*在计算器界面下禁止横屏
+        \n\n1.26版更新说明：\n*UI设计优化\n添加设置界面（功能尚未开放）\n\n1.28版更新说明：\n*开放设置功能，支持自定义精确度，设置是否分组
+        \n*重新设计应用程序图标\n\n1.29版更新说明：\n*修复Bug，优化显示\n\n1.29final版更新说明：\n*修复Bug若干\n*增加科学计数法设置\n*更改设置生效方式
+        \n*更改默认的精度为8</string>
+
+</resources>
