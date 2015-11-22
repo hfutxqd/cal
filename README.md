@@ -1,2 +1,1 @@
-cal
-===
+A simple calculator for android.
